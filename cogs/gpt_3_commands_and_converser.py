@@ -378,15 +378,15 @@ class GPT3ComCon(discord.Cog, name="GPT3ComCon"):
             title="Epirium AI Help", description="The current commands", color=0xC730C7
         )
         embed.add_field(
-            name="/epai ask",
+            name="/gpt ask",
             value="Ask Epirium AI something. Be clear, long, and concise in your prompt.",
             inline=False,
         )
         embed.add_field(
-            name="/epai converse", value="Start a conversation with Epirium AI", inline=False
+            name="/gpt converse", value="Start a conversation with Epirium AI", inline=False
         )
         embed.add_field(
-            name="/epai end",
+            name="/gpt end",
             value="End a conversation with Epirium AI. You can also type `end` in the conversation.",
             inline=False,
         )
@@ -401,12 +401,12 @@ class GPT3ComCon(discord.Cog, name="GPT3ComCon"):
             inline=False,
         )
         embed.add_field(
-            name="/epai draw <image prompt>",
+            name="/gpt draw <image prompt>",
             value="Use DALL-E2 to draw an image based on a text prompt",
             inline=False,
         )
         embed.add_field(
-            name="/epai optimize <image prompt>",
+            name="/gpt optimize <image prompt>",
             value="Optimize an image prompt for use with DALL-E2, Midjourney, SD, etc.",
             inline=False,
         )
