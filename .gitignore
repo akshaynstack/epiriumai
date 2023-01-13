@@ -1,0 +1,11 @@
+#cache folders
+__pycache__
+/cogs/__pycache__
+/models/__pycache__
+#user files
+.env
+.vscode
+*.sqlite
+bot.pid
+usage.txt
+/dalleimages
